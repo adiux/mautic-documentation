@@ -45,7 +45,7 @@ It is checked by default. If you uncheck it, the plugin will not push contacts t
 1. Set up the [cron job][cron-job] if you have not already configured it.
 
 >>> Script to configure in your cron job: `php $PATH_TO_MAUTIC_DIRECTORY/bin/console mautic:integration:fetchleads --integration=Hubspot --fetch-all`
-  
+>>> There is no automatic synchronisation from Mautic to Hubspot. Since the command `mautic:integration:pushleadactivity` is not implemented yet.
 
 ## Test the plugin
 
